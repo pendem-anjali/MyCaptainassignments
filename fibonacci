@@ -1,0 +1,28 @@
+num = int(input("Enter the range number: "))
+Enter the range number: 15
+>>> First_val = 0
+>>> Second_val = 1
+>>> for n in range(0,num):
+...             if(n <= 1):
+...                        next = n
+...             else:
+...                        next = First_val + Second_val
+...                        First_val = Second_val
+...                        Second_val = next
+...             print(next)
+...
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
